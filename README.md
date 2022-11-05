@@ -4,8 +4,8 @@ Regression task using diamond data set to predict the diamond price, It's a grea
 ## About Dataset
 Context
 This classic dataset contains the prices and other attributes of almost 54,000 diamond
-####  can  download the data from kaggle by this link: https://www.kaggle.com/competitions/shai-ml/data
-### Attirbutes:
+####  can  download the data from kaggle through this link: https://www.kaggle.com/competitions/shai-ml/data
+### Attirbutes
 
 - price price in US dollars (\$326--\$18,823)
 
@@ -27,29 +27,33 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
 
 - table width of top of diamond relative to widest point 
 
-## How working with this datatset 
+## How working with this dataset
 
 1- recovering the data by using python libraries (Numpy, Pandas, Seaborn, Matplotlib)
 
-    --  There are no null value
+    --  There is no null value
 
     --  There are zeros value in 'x', 'y', 'z' feature
 
-2- we replace all zeros value with medain value
+2- we replace all zeros values with a median value
 
     --  There are a lot of outliers 
 
-3- we use log transform to remove outliers by changing data distribution to semi normal distribution 
+3- we use log transform to remove outliers by changing data distribution to semi-normal distribution
 
     --  There are three categorical features 
 
-4- we transform them to oridinal encoder by using manual method 
+4- we transform them into the ordinal encoder by using a manual method
 
-5- Split the dat into labels and targets ,and preparing it for training 
+5- Split the data into labels and targets,and prepare it for training
 
 6- Training Models: we try several models { linear, SVR, KNN, XGB, Random Forest, Decision tree }
 
 7- we calculate RMSE and Score measures for each one
+
+8- The best result was with using XGBRegression with RMSE is 540, and a Score is 0.98
+
+9- Get prediction using test data, and prepare a submission CSV file to submit.or each one
 
 8- The best result was with using XGBRegression with RMSE is 540, and Score is 0.98  
  
