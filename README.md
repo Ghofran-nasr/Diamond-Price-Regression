@@ -7,7 +7,7 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
 ####  can  download the data from kaggle through this link: https://www.kaggle.com/competitions/shai-ml/data
 ### Attirbutes
 
-- price price in US dollars (\$326--\$18,823)
+- price in US dollars (\$326--\$18,823)
 
 - carat weight of the diamond (0.2--5.01)
 
@@ -31,11 +31,11 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
 
 1- recovering the data by using python libraries (Numpy, Pandas, Seaborn, Matplotlib)
 
-    --  There is no null value
+    --  There is no null values
 
-    --  There are zeros value in 'x', 'y', 'z' feature
+    --  There are zero values in 'x', 'y', 'z' features
 
-2- we replace all zeros values with a median value
+2- we replace all zero values with a median value
 
     --  There are a lot of outliers 
 
@@ -54,8 +54,4 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
 8- The best result was with using XGBRegression with RMSE is 540, and a Score is 0.98
 
 9- Get prediction using test data, and prepare a submission CSV file to submit.or each one
-
-8- The best result was with using XGBRegression with RMSE is 540, and Score is 0.98  
- 
-9- Get prediction using test data, and prepare a submiision CSV file to submit.
 
